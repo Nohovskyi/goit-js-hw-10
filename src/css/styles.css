@@ -18,3 +18,24 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.coutry-info-main,
+.coutry-list-main {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.coutry-list-main:not(:last-child)  {
+  margin-bottom: 10px;
+}
